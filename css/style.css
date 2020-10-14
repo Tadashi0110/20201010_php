@@ -1,0 +1,616 @@
+/* ここから下に記載していく */
+/* ヘッダーを横並びに */
+body{
+    width: 1200px;
+    margin:0 auto;
+}
+
+img{
+    max-width:100%;
+    height: auto;
+}
+
+
+.header {
+    display: flex;
+}
+
+img.headerimg {
+    width: auto;
+    margin: 20px 100px 20px 20px;
+}
+/* ヘッダーの中身を編集 */
+
+ul {
+    display: flex;
+}
+
+li {
+    padding: 50px 25px;
+    list-style: none;
+    display: flex;
+    font-size: 21px;
+}
+
+a {
+    text-decoration: none;
+    color: #222222;
+  }
+
+/* メインレイアウト（セカイを変えるチーズを作ろう） */
+.main1{
+    width: 1200px;
+    height: 500px;
+    background-image: url(../img/mainbg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-family: initial;
+
+}
+
+/* セカイを変えるチーズを作ろう */
+p.main-text1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 200px;
+    padding-bottom: 30px;
+}
+
+/* チーズ職人養成学校「チーズアカデミーTOKYO」 */
+p.main-text2 {
+    font-size: 30px;
+    padding-bottom: 200px;
+}
+
+/* ABOUT */
+section#about {
+    font-size: 18px;
+    color: #222222;
+    text-align: center;
+    padding-top: 60px;
+    /* padding-bottom: 80px; */
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffd61a;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+h2.abouth2 {
+    padding-top: 60px;
+}
+
+h3{
+    font-size: 18px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+p.about-text1 {
+    padding-bottom: 33px;
+    text-align: center;
+}
+
+p.about-text2 {
+    width: 728px;
+    margin: auto;
+    padding-bottom: 33px;
+    line-height: 30px;
+    text-align: center;
+}
+
+p.about-text3 {
+    padding-bottom: 33px;
+    text-align: center;
+}
+
+p.about-text4 {
+    width: 500px;
+    margin: auto;
+    line-height: 30px;
+    padding-bottom: 73px;
+    text-align: center;
+}
+
+.img-about {
+    display: flex;
+    padding-bottom: 60px;
+}
+img.pizza {
+    width: 270px;
+    height: 230px;
+    object-position: 100% 100%;
+    object-fit: cover;
+}
+
+img.man {
+    width: 330px;
+    height: 230px;
+    object-fit: cover;
+}
+
+img.field {
+    width: 330px;
+    height: 230px;
+    object-fit: cover;
+}
+
+img.food {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+}
+
+/* .courseheader */
+/* 1段目 */
+.courseheader {
+    text-align: center;
+    padding-bottom: 60px;
+    color: #222222;
+}
+
+p.coursetext1 {
+    padding-bottom: 30px;
+}
+
+h2.blackh2 {
+    color: #222222;
+}
+
+.course-main {
+    display: flex;
+    height: 455px;
+}
+
+img.main1-img {
+    width: 600px;
+}
+
+.course-main1 {
+    background-color: #fafafa;
+    width: 600px;
+}
+
+.main-text {
+    margin: 120px auto 120px 50px;
+}
+
+p.main1-text1 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 40px;
+    width: 480px;
+}
+
+p.main1-text2 {
+    font-size: 16px;
+    width: 430px;
+    line-height: 30px;
+}
+
+/* ２段目 */
+.course-main-1 {
+    display: flex;
+    height: 455px;
+}
+
+.course-main2 {
+    width: 600px;
+    background: #fafafa;
+}
+
+.main2-text {
+    padding: 120px 50px 120px;
+}
+
+img.main2-img {
+    width: 600px;
+}
+
+p.main2-text1 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 40px;
+    padding-left: 70px;
+}
+
+main2-text2 {
+    line-height: 30px;
+    
+}
+
+p.main2-text2 {
+    line-height: 30px;
+    padding-left: 70px;
+}
+
+/* 3段目 */
+
+.course-main-3 {
+    display: flex;
+    height: 455px;
+    padding-bottom: 60px;
+}
+
+img.main3-img {
+    width: 600px;
+}
+
+.course-main3 {
+    background-color: #fafafa;
+    width: 600px;
+}
+
+.main3-text {
+    margin: 120px auto 120px 50px;
+}
+
+p.main3-text1 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 40px;
+    width: 480px;
+}
+
+p.main3-text2 {
+    font-size: 16px;
+    width: 43１px;
+    line-height: 30px;
+}
+
+/* NEWS */
+
+.news1 {
+    text-align: center;
+}
+
+.news-main {
+    display: flex;
+    justify-content: center;
+}
+
+img.newsimg {
+    width: 300px;
+    padding-bottom: 26px;
+}
+
+.news2 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.t {
+    font-family: monospace;
+    line-height: 24px;
+}
+
+.hover1 {
+    height: 60px;
+    width: 300px;
+    display: inline-block;
+    margin: 60px;
+    background-color: #ffd61a;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+    line-height: 60px;
+}
+  .hover1:hover {
+    opacity: 0.6;
+  }
+
+/* access */
+span.mgr1 {
+    margin-right: 80px;
+}
+
+span.mgr2 {
+    margin-right: 37px;
+}
+
+span.mgr3 {
+    margin-right: 104px;
+}
+
+span.mgr4 {
+    margin-right: 102px;
+}
+
+span.mgr5 {
+    margin-right: 93px;
+}
+
+section#access {
+    background-color: #fafafa;
+    width: 1200px;
+    height: 812px;
+}
+
+h2.accessh2 {
+    text-align: center;
+    padding-top: 60px;
+    color: #222222;
+}
+
+p.accessp1 {
+    text-align: center;
+    padding-bottom: 60px;
+    font-size: 18px;
+}
+
+.accsess-text {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 429px;
+}
+
+p.accessp2 {
+    padding-bottom: 30px;
+}
+
+p.accessp3 {
+    padding-bottom: 30px;
+}
+
+p.accessp4 {
+    padding-bottom: 30px;
+}
+
+p.accessp5 {
+    padding-bottom: 30px;
+}
+
+/* CONTACT */
+
+h2.contacth2 {
+    padding-top: 70px;
+}
+
+.contact-text {
+    text-align: center;
+}
+
+p.contact-text1 {
+    padding-bottom: 30px;
+    line-height: 24px;
+}
+
+p.contact-text2 {
+    padding-bottom: 70px;
+    line-height: 24px;
+}
+
+.hover2 {
+    height: 60px;
+    width: 300px;
+    display: inline-block;
+    margin: 30px 450px 140px;
+    background-color: #ffd61a;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.hover2:hover {
+    opacity: 0.6;
+  }
+
+/* フッター */
+
+p.footer {
+    line-height: 76px;
+    height: 76px;
+    background-color: #707070;
+    text-align: center;
+    color: #fff;
+}
+
+/* 問い合わせフォーム */
+
+/* 名前 */
+.name1 {
+    display: flex;
+    width: 640px;
+    border-top: solid 2px #cacaca;
+    border-bottom: solid 2px #cacaca;
+    margin: auto;
+}
+
+dt.dt-name1 {
+    width: 240px;
+    padding-top: auto;
+    padding-bottom: auto;
+    font-size: 16px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 16px;
+}
+
+dd.dd-name1 {
+    border-left: solid 1px #bfbfbf;
+}
+
+input#name1 {
+    height: 36px;
+    width: 328px;
+    border: 1px solid #bfbfbf;
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/* カナ */
+.name2 {
+    display: flex;
+    width: 640px;
+    /* border-top: solid 2px #cacaca; */
+    border-bottom: solid 2px #cacaca;
+    margin: auto;
+}
+
+dt.dt-name2 {
+    width: 240px;
+    padding-top: auto;
+    padding-bottom: auto;
+    font-size: 16px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 16px;
+}
+
+dd.dd-name2 {
+    border-left: solid 1px #bfbfbf;
+}
+
+input#name2 {
+    height: 36px;
+    width: 328px;
+    border: 1px solid #bfbfbf;
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/* メールアドレス */
+.email {
+    display: flex;
+    width: 640px;
+    /* border-top: solid 2px #cacaca; */
+    border-bottom: solid 2px #cacaca;
+    margin: auto;
+}
+
+dt.dt-email{
+    width: 240px;
+    padding-top: auto;
+    padding-bottom: auto;
+    font-size: 16px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 16px;
+}
+
+dd.dd-email {
+    border-left: solid 1px #bfbfbf;
+}
+
+input#email {
+    height: 36px;
+    width: 328px;
+    border: 1px solid #bfbfbf;
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/* チーズアカデミーを知ったきっかけ */
+.reason{
+    display: flex;
+    width: 640px;
+    /* border-top: solid 2px #cacaca; */
+    border-bottom: solid 2px #cacaca;
+    margin: auto;
+}
+
+dt.dt-reason{
+    width: 240px;
+    padding-top: auto;
+    padding-bottom: auto;
+    font-size: 16px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 16px;
+}
+
+dd.dd-reason {
+    border-left: solid 1px #bfbfbf;
+}
+
+select#reazon1 {
+    height: 36px;
+    width: 336px;
+    border: 1px solid #bfbfbf;
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/* 志望動機 */
+.radio{
+    display: flex;
+    width: 640px;
+    /* border-top: solid 2px #cacaca; */
+    border-bottom: solid 2px #cacaca;
+    margin: auto;
+}
+
+dt.dt-radio{
+    width: 240px;
+    padding-top: auto;
+    padding-bottom: auto;
+    font-size: 16px;
+    margin-top: 14px;
+    margin-bottom: auto;
+    margin-left: 16px;
+}
+
+dd.dd-radio {
+    border-left: solid 1px #bfbfbf;
+    display: inline-grid;
+}
+
+input#radio {
+    height: 36px;
+    width: 328px;
+    border: 1px solid #bfbfbf;
+    margin-left: 8px;
+    margin-top: 14px;
+    margin-bottom: 8px;
+}
+
+/* 詳細 */
+.detail-detail{
+    display: flex;
+    width: 640px;
+    /* border-top: solid 2px #cacaca; */
+    border-bottom: solid 2px #cacaca;
+    margin: auto;
+}
+
+dt.dt-detail{
+    width: 240px;
+    padding-top: auto;
+    padding-bottom: auto;
+    font-size: 16px;
+    margin-top: 14px;
+    margin-bottom: auto;
+    margin-left: 16px;
+}
+
+dd.dd-detail {
+    border-left: solid 1px #bfbfbf;
+}
+
+textarea#detail {
+    width: 328px;
+    border: 1px solid #bfbfbf;
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+label {
+    font-size: 15px;
+    line-height: 39px;
+    padding-left: 8px;
+}
